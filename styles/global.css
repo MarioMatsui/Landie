@@ -192,3 +192,75 @@ header button:hover {
     background: var(--blue900);
     color: var(--white);
 }
+
+@media (max-width: 850px) {
+    .detailsHome h1 {
+        font-size: 3.9vh;
+    }
+}
+
+@media (max-width: 800px) {
+    .detailsHome h1 {
+        font-size: 3vh;
+    }
+
+    header {
+        padding-bottom: 12vh;
+    }
+}
+
+@media (max-width: 615px) {
+    .detailsHome h1 {
+        font-size: 2.6vh;
+    }
+
+    header {
+        padding-bottom: 9vh;
+    }
+}
+
+@media (max-width: 535px) {
+    .detailsHome h1 {
+        font-size: 1.9vh;
+    }
+
+    header {
+        padding-bottom: 7vh;
+    }
+}
+
+@media (max-width: 390px) {
+    .detailsHome h1 {
+        font-size: 1.7vh;
+    }
+
+    header {
+        padding-bottom: 5vh;
+    }
+}
+
+@media (max-width: 350px) {
+    .detailsHome h1 {
+        font-size: 1vh;
+    }
+
+    header {
+        padding-bottom: 3vh;
+    }
+}
+
+@media (max-width: 250px) {
+    header {
+        padding-bottom: 1vh;
+    }
+}
+
+@media (max-width: 165px) {
+    .detailsHome h1 {
+        font-size: .8vh;
+    }
+
+    header {
+        padding-bottom: 0vh;
+    }
+}
