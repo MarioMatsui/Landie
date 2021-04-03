@@ -193,6 +193,12 @@ header button:hover {
     color: var(--white);
 }
 
+/* CellGirl Section */
+
+.cellGirl {
+    display: flex;
+}
+
 @media (max-width: 850px) {
     .detailsHome h1 {
         font-size: 3.9vh;
