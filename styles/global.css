@@ -4,6 +4,7 @@
     --blue800: #111B47;
     --blue600: #37447E;
     --blue500: #505F98;
+    --blue400: #6F7CB2;
 
     /* White */
     --white: #FFFFFF;
@@ -197,6 +198,26 @@ header button:hover {
 
 .cellGirl {
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detailsDescription {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detailDescription h1 {
+    font-size: 3.05vw;
+    font-weight: 500;
+    color: var(--blue900);
+}
+
+.CellGirlDescriptionDetails {
+    font-size: 1.3vw;
+    font-weight: 400;
+    color: var(--blue400);
 }
 
 @media (max-width: 850px) {
