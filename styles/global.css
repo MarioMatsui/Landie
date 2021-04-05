@@ -6,6 +6,9 @@
     --blue500: #505F98;
     --blue400: #6F7CB2;
 
+    /* Gray */
+    --gray600: #5D6970;
+
     /* White */
     --white: #FFFFFF;
 
@@ -200,25 +203,70 @@ header button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    padding: 15vw 14vw 9.2vw 14vw;
+}
+
+.cellGirl img {
+    display: inline-block;
+    width: 38vw;
+    height: auto;
+
+    margin-left: 2.5vw;
+}
+
+.detailsCellGirl {
+    width: 45.7vw;
+
+    margin-top: 4.1vw;
+}
+
+.detailsCellGirl h1 {
+    font-size: 3.05vw;
+    font-weight: 500;
+    color: var(--blue900);
+
+    margin-bottom: 1.3vw;
+}
+
+.detailsCellGirl p {
+    font-size: 1.3vw;
+    font-weight: 400;
+    color: var(--blue400);
+
+    margin-bottom: 6.8vw;
 }
 
 .detailsDescription {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
-.detailDescription h1 {
-    font-size: 3.05vw;
-    font-weight: 500;
-    color: var(--blue900);
+.detailDescription {
+    width: 21.6vw;
 }
 
-.CellGirlDescriptionDetails {
-    font-size: 1.3vw;
-    font-weight: 400;
-    color: var(--blue400);
+.detailDescription img {
+    width: 3.05vw;
+
+    margin-bottom: 1.2vw;
 }
+.detailDescription h2 {
+    font-size: 1.3vw;
+    font-weight: 500;
+    color: var(--blue900);
+
+    margin-bottom: 0.5vw;
+}
+
+.detailDescription p {
+    font-size: 1vw;
+    font-weight: 400;
+    color: var(--gray600);
+}
+
+/* Media queries */
 
 @media (max-width: 850px) {
     .detailsHome h1 {
