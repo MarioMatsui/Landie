@@ -297,6 +297,20 @@ header button:hover {
     color: var(--blue400);
 }
 
+/* cellPark Section */
+
+.cellParkSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cellParkDetails h1 {
+    font-size: 3.05vw;
+    font-weight: 500;
+    color: var(--blue900);
+}
+
 /* Media queries */
 
 @media (max-width: 850px) {
