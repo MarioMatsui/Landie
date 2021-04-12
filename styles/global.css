@@ -303,12 +303,27 @@ header button:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    padding: 9vw 11.5vw 7.5vw 11.5vw;
+}
+
+.cellParkSection img {
+    width: 32vw;
+    margin-right: 10.6vw;
 }
 
 .cellParkDetails h1 {
     font-size: 3.05vw;
     font-weight: 500;
     color: var(--blue900);
+
+    margin-bottom: 1.4vw;
+}
+
+.cellParkDetails p {
+    font-size: 1.4vw;
+    font-weight: 400;
+    color: var(--blue400);
 }
 
 /* Media queries */
