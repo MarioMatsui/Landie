@@ -326,6 +326,35 @@ header button:hover {
     color: var(--blue400);
 }
 
+/* Yoga Section */
+
+.yogaSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 9vw 11.5vw 7.5vw 11.5vw;
+}
+
+.yogaSection img {
+    width: 30vw;
+    margin-right: 10.6vw;
+}
+
+.yogaDetails h1 {
+    font-size: 3.05vw;
+    font-weight: 500;
+    color: var(--blue900);
+
+    margin-bottom: 1.4vw;
+}
+
+.yogaDetails p {
+    font-size: 1.4vw;
+    font-weight: 400;
+    color: var(--blue400);
+}
+
 /* Media queries */
 
 @media (max-width: 850px) {
