@@ -2,6 +2,7 @@
     /* Blue */
     --blue900: #091133;
     --blue800: #111B47;
+    --blue700: #222F65;
     --blue600: #37447E;
     --blue500: #505F98;
     --blue400: #6F7CB2;
@@ -333,7 +334,7 @@ header button:hover {
     justify-content: space-between;
     align-items: center;
 
-    padding: 9vw 11.5vw 7.5vw 11.5vw;
+    padding: 9vw 11.5vw 34vw 11.5vw;
 }
 
 .yogaSection img {
@@ -353,6 +354,97 @@ header button:hover {
     font-size: 1.4vw;
     font-weight: 400;
     color: var(--blue400);
+}
+
+/* bottom Section */
+
+.bottomSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottomSection img {
+    width: 100vw;
+    height: 70vw;
+
+    position: absolute;
+
+    z-index: -1;
+}
+
+.titleBottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.titleBottom h1 {
+    font-size: 3.05vw;
+    font-weight: 500;
+    color: var(--blue900);
+}
+
+.titleBottom p {
+    font-size: 1.35vw;
+    font-weight: 300;
+    color: var(--blue400);
+
+    margin-top: 1.35vw;
+}
+
+.mainBottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 3.05vw;
+}
+
+.mainBottom h2 {
+    font-size: 4.2vw;
+    font-weight: 500;
+    color: var(--blue700);
+}
+
+.mainBottom p {
+    font-size: 1.3vw;
+    font-weight: 400;
+    color: var(--blue600);
+
+    margin-top: .5vw;
+}
+
+.footerBottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 5.08vw;
+}
+
+.footerBottom p {
+    font-size: 1.18vw;
+    font-weight: 400;
+    color: var(--gray600);
+}
+
+.footerBottom button {
+    font-size: 1.18vw;
+    font-weight: 500;
+    color: var(--white);
+    background: var(--blue800);
+
+    border: none;
+    border-radius: .16vw;
+    padding: 0.9vw 4.1vw;
+    margin-top: 0.85vw;
 }
 
 /* Media queries */
