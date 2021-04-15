@@ -63,7 +63,13 @@ header li:last-child {
 header li a {
     font-size: 1.2vw;
     font-weight: 400;
-    color: var(--blue500);
+    color: var(--blue400);
+
+    transition: color .2s;
+}
+
+header li a:hover {
+    color: var(--blue800);
 }
 
 header h1 {
@@ -72,6 +78,7 @@ header h1 {
     color: var(--blue600);
 
     margin-left: -6vw;
+    cursor: default;
 }
 
 header button {
@@ -450,6 +457,15 @@ header button:hover {
     border-radius: .16vw;
     padding: 0.9vw 4.1vw;
     margin-top: 0.85vw;
+
+    cursor: pointer;
+    opacity: .8;
+
+    transition: opacity .2s;
+}
+
+.footerBottom button:hover {
+    opacity: 1;
 }
 
 /* footer */
@@ -481,6 +497,7 @@ footer {
     color: var(--gray400);
 
     text-align: center;
+    cursor: default;
 }
 
 .topFooter h1 {
@@ -489,6 +506,8 @@ footer {
     color: var(--blue600);
 
     margin-left: -2.2vw;
+
+    cursor: default;
 }
 
 .topFooter a {
@@ -499,6 +518,13 @@ footer {
 
     padding: .7vw 1.4vw;
     border-radius: .16vw;
+
+    opacity: .8;
+    transition: opacity .2s;
+}
+
+.topFooter a:hover {
+    opacity: 1;
 }
 
 .bottomFooter {
@@ -515,16 +541,38 @@ footer {
     color: var(--blue300);
 
     margin-right: 5.08vw;
+
+    transition: color .2s;
+}
+
+.bottomFooterNavbar a:hover {
+    color: var(--blue600);
 }
 
 .bottomFooterNavbar a:last-child {
     margin-right: 0;
 }
 
+.bottomFooterSocial a:first-child img {
+    opacity: .3;
+
+    transition: opacity .2s;
+}
+
+.bottomFooterSocial a:first-child img:hover {
+    opacity: 1;
+}
+
 .bottomFooterSocial img {
     width: 1.35vw;
 
     margin-left: 2.5vw;
+
+    transition: filter .2s;
+}
+
+.bottomFooterSocial img:hover{
+    filter: brightness(.2);
 }
 
 /* Media queries */
