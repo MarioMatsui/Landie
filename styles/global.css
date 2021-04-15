@@ -447,7 +447,7 @@ header button:hover {
     color: var(--gray600);
 }
 
-.footerBottom button {
+.footerBottom a {
     font-size: 1.18vw;
     font-weight: 500;
     color: var(--white);
@@ -464,7 +464,7 @@ header button:hover {
     transition: opacity .2s;
 }
 
-.footerBottom button:hover {
+.footerBottom a:hover {
     opacity: 1;
 }
 
