@@ -1,0 +1,77 @@
+header li a {
+    color: var(--white);
+
+    transition: color .2s;
+}
+
+header li a:hover {
+    color: var(--gray500);
+}
+
+/* Contact */
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imgCouple {
+    width: 36.35vw;
+    position: absolute;
+
+    top: 0;
+    z-index: -1;
+}
+
+.contactDetails {
+    padding: 0vw 8.5vw 0vw 46vw;
+}
+
+.contactDetails h1 {
+    font-size: 3.05vw;
+    font-weight: 500;
+    color: var(--blue900);
+
+    margin-bottom: 1.35vw;
+}
+
+.contactDetails p {
+    font-size: 1.1vw;
+    font-weight: 400;
+    color: var(--blue400);
+}
+
+.contactDetailsItens {
+    margin-top: 1.7vw;
+}
+
+.contactDetailsItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactDetailsItem .Item:first-child {
+    margin-right: 2.1vw;
+}
+
+.Item {
+    margin-top: 3.3vw;
+}
+
+.Item h2 {
+    font-size: 1.35vw;
+    font-weight: 500;
+    color: var(--blue900);
+}
+
+.Item p {
+    font-size: .95vw;
+    font-weight: 400;
+    color: var(--gray600);
+}
+
+.Item img {
+    width: 3.05vw;
+}
