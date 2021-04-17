@@ -4,6 +4,15 @@ header li a {
     transition: color .2s;
 }
 
+header ul button {
+    color: var(--blue400);
+}
+
+header ul button:hover {
+    color: var(--gray800);
+    transition: color .2s;
+}
+
 header li a:hover {
     color: var(--blue800);
 }
