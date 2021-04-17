@@ -10,7 +10,7 @@ The [Landie](https://landie-five.vercel.app/), is a website that intends to help
 
 <p align = "center">
   <a href="https://www.figma.com/file/NqBkZM7SlLGE91kpujQsEi/Figma-Website-Template-Landie-Demo">
-    <img alt="figma-logo" src="https://img.shields.io/badge/-figma-green?&style=for-the-badge&logo=figma&logoColor=white" />
+    <img alt="figma-logo" src="https://img.shields.io/badge/-figma-blue?&style=for-the-badge&logo=figma&logoColor=white" />
   </a>
 </p>
 
@@ -20,5 +20,5 @@ The [Landie](https://landie-five.vercel.app/), is a website that intends to help
 
 💚 by [Mario Matsui](https://github.com/MarioMatsui)
 
-[![Linkedin Badge](https://img.shields.io/badge/-Mario%20Matsui-green?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/mario-matsui/)](https://www.linkedin.com/in/mario-matsui/)
-[![Gmail Badge](https://img.shields.io/badge/-mariomatsuif@gmail.com-green?style=flat-square&logo=Gmail&logoColor=white&link=mailto:mariomatsuif@gmail.com)](mailto:mariomatsuif@gmail.com)
+[![Linkedin Badge](https://img.shields.io/badge/-Mario%20Matsui-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/mario-matsui/)](https://www.linkedin.com/in/mario-matsui/)
+[![Gmail Badge](https://img.shields.io/badge/-mariomatsuif@gmail.com-blue?style=flat-square&logo=Gmail&logoColor=white&link=mailto:mariomatsuif@gmail.com)](mailto:mariomatsuif@gmail.com)
