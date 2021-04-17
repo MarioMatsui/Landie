@@ -13,3 +13,12 @@ The [Landie](https://landie-five.vercel.app/), is a website that intends to help
     <img alt="figma-logo" src="https://img.shields.io/badge/-figma-green?&style=for-the-badge&logo=figma&logoColor=white" />
   </a>
 </p>
+
+![thumb](https://user-images.githubusercontent.com/63224412/115100496-74573780-9f13-11eb-93ad-b69424b47972.png)
+
+---
+
+💚 by [Mario Matsui](https://github.com/MarioMatsui)
+
+[![Linkedin Badge](https://img.shields.io/badge/-Mario%20Matsui-green?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/mario-matsui/)](https://www.linkedin.com/in/mario-matsui/)
+[![Gmail Badge](https://img.shields.io/badge/-mariomatsuif@gmail.com-green?style=flat-square&logo=Gmail&logoColor=white&link=mailto:mariomatsuif@gmail.com)](mailto:mariomatsuif@gmail.com)
