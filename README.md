@@ -18,7 +18,7 @@ The [Landie](https://landie-five.vercel.app/), is a website that intends to help
 
 ---
 
-💚 by [Mario Matsui](https://github.com/MarioMatsui)
+💙 by [Mario Matsui](https://github.com/MarioMatsui)
 
 [![Linkedin Badge](https://img.shields.io/badge/-Mario%20Matsui-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/mario-matsui/)](https://www.linkedin.com/in/mario-matsui/)
 [![Gmail Badge](https://img.shields.io/badge/-mariomatsuif@gmail.com-blue?style=flat-square&logo=Gmail&logoColor=white&link=mailto:mariomatsuif@gmail.com)](mailto:mariomatsuif@gmail.com)
