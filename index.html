@@ -20,14 +20,14 @@
                 <a href="">Home</a>
             </li>
             <li>
-                <a href="">About</a>
+                <button id="btnAbout" onclick="openModal()">About</button>
             </li>
             <li>
                 <a href="./contact.html">Contact</a>
             </li>
         </ul>
         <h1>Landie</h1>
-        <button onclick="location.href = './contact.html'">Buy Now</button>
+        <button id="btnBuyNow" onclick="location.href = './contact.html'">Buy Now</button>
     </header>
 
     <main>
@@ -174,8 +174,67 @@
         </div>
     </footer>
 
-    <div class="modal">
-        <h1>hello world</h1>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <button onclick="closeModel()" class="btnCloseModal">&times;</button>
+            <div class="modalDetails">
+                <h1>
+                    Design & Build Your Own </br>
+                    Landing Pages
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean</br>
+                    commodo ligula eget dolor. Aenean massa. Cum sociis natoque</br>
+                    penatibus et magnis dis parturient montes, nascetur ridiculus</br>
+                </br>
+                    mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</br>
+                    Nulla consequat massa quis enim.</br>
+                </p>
+                <div class="modalItens">
+                    <div class="modalItem">
+                        <div class="Item">
+                            <img src="./src/img/IconDetails.svg" alt="">
+                            <h2>Title Goes Here</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetuer</br>
+                                adipiscing elit. Aenean commodo ligula eget</br>
+                                dolor. 
+                            </p>
+                        </div>
+                        <div class="Item">
+                            <img src="./src/img/IconDetails.svg" alt="">
+                            <h2>Title Goes Here</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetuer</br>
+                                adipiscing elit. Aenean commodo ligula eget</br>
+                                dolor. 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="modalItem">
+                        <div class="Item">
+                            <img src="./src/img/IconDetails.svg" alt="">
+                            <h2>Title Goes Here</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetuer</br>
+                                adipiscing elit. Aenean commodo ligula eget</br>
+                                dolor. 
+                            </p>
+                        </div>
+                        <div class="Item">
+                            <img src="./src/img/IconDetails.svg" alt="">
+                            <h2>Title Goes Here</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetuer</br>
+                                adipiscing elit. Aenean commodo ligula eget</br>
+                                dolor. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="./src/img/cellphone.png" alt="">
+        </div>
     </div>
 </body>
 </html>
